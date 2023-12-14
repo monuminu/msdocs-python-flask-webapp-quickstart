@@ -64,5 +64,4 @@ jobs:
         with:
           app-name: 'llmchatappmano'
           slot-name: 'Production'
-          startup-command: chainlit run app.py
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F788934FDD0449F196A2B58892235B5E }}
